@@ -1,4 +1,24 @@
-/*
-font-family: 'Nunito', sans-serif;
+* {
+  font-family: "Nunito", sans-serif;
+}
 
-*/
+:root {
+  --color-white: #fff;
+}
+.hero-page {
+  background-image: url("../img/overlay.png");
+  background-size: cover;
+  height: 444px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+h1,
+.text-bold {
+  font-weight: bold;
+}
