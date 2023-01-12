@@ -21,13 +21,40 @@
   flex-direction: column;
   color: #fff;
 }
-h1,
-.text-bold,
-p {
+.about-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.about-hero h2 {
+  line-height: 87px;
+}
+.about-hero p {
+  line-height: 30px;
+}
+h1 {
+  font-size: 72px;
   font-weight: bold;
 }
-p {
-  font-size: 18px;
+
+h2 {
+  font-size: 54px;
+  font-weight: bold;
+}
+h3 {
+  font-size: 36px;
+  font-weight: bold;
+}
+h4 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 38px;
+  padding-top: 20px;
+}
+
+h2 .text-bold {
   line-height: 38px;
 }
 .box-img {
@@ -41,4 +68,11 @@ p {
 }
 .cont-card {
   margin: 0 auto;
+}
+.follow-box {
+  display: flex;
+  flex-direction: row;
+
+  padding: 0px;
+  gap: 30px;
 }
