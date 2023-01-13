@@ -7,6 +7,7 @@
 
 :root {
   --color-white: #fff;
+  --color-secondary: #f65282;
 }
 .hero-page {
   background-image: url("../img/overlay.png");
@@ -53,6 +54,15 @@ h4 {
   line-height: 38px;
   padding-top: 20px;
 }
+h5 {
+  border-bottom: 1px dashed #67d5d2;
+  padding: 25px 0;
+  font-weight: bold;
+}
+h6 {
+  font-weight: 800;
+  color: var(--color-secondary);
+}
 
 h2 .text-bold {
   line-height: 38px;
@@ -75,4 +85,18 @@ h2 .text-bold {
 
   padding: 0px;
   gap: 30px;
+}
+ul li {
+  list-style: none;
+}
+ul {
+  padding: 0;
+  margin-top: 38px;
+}
+.list-item li {
+  padding: 10px 0;
+  border-bottom: 1px dashed #67d5d2;
+}
+.list-item {
+  padding-right: 40px;
 }
