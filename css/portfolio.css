@@ -8,6 +8,7 @@
 :root {
   --color-white: #fff;
   --color-secondary: #f65282;
+  --color-primary: #662eed;
 }
 .hero-page {
   background-image: url("../img/overlay.png");
@@ -62,6 +63,13 @@ h5 {
 h6 {
   font-weight: 800;
   color: var(--color-secondary);
+}
+.li-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 20px;
+  margin-top: 50px;
 }
 
 h2 .text-bold {
