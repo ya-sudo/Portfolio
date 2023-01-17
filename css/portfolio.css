@@ -9,6 +9,7 @@
   --color-white: #fff;
   --color-secondary: #f65282;
   --color-primary: #662eed;
+  --color-bl: #272142;
 }
 .hero-page {
   background-image: url("../img/overlay.png");
@@ -56,7 +57,6 @@ h4 {
   padding-top: 20px;
 }
 h5 {
-  border-bottom: 1px dashed #67d5d2;
   padding: 25px 0;
   font-weight: bold;
 }
@@ -75,10 +75,39 @@ h6 {
 h2 .text-bold {
   line-height: 38px;
 }
+.recepi-col {
+  border-bottom: 1px dashed #67d5d2;
+}
 .box-img {
   overflow: hidden;
 }
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
+  width: 100%;
+  margin: 20px auto 40px;
+}
+.nav-container img {
+  width: 150px;
+}
+
+.nav-container ul {
+  display: flex;
+}
+.nav-container li {
+  margin: 0 15px;
+}
+.nav-container a:hover,
+.nav-container a:active {
+  color: var(--color-primary);
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: var(--color-bl);
+}
 .box-img img {
   background-size: cover;
   width: 100%;
@@ -90,7 +119,7 @@ h2 .text-bold {
 .follow-box {
   display: flex;
   flex-direction: row;
-
+  align-items: center;
   padding: 0px;
   gap: 30px;
 }
