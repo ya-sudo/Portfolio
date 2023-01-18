@@ -10,6 +10,7 @@
   --color-secondary: #f65282;
   --color-primary: #662eed;
   --color-bl: #272142;
+  --color-light-pink: #f9f7fe;
 }
 .hero-page {
   background-image: url("../img/overlay.png");
@@ -89,14 +90,17 @@ h2 .text-bold {
   width: 100%;
   margin: 20px auto 40px;
 }
-.nav-container img {
+.nav-container img,
+.container-box img {
   width: 150px;
 }
 
-.nav-container ul {
+.nav-container ul,
+.container-box ul {
   display: flex;
 }
-.nav-container li {
+.nav-container li,
+.container-box li {
   margin: 0 15px;
 }
 .nav-container a:hover,
@@ -136,4 +140,13 @@ ul {
 }
 .list-item {
   padding-right: 40px;
+}
+footer {
+  background-color: var(--color-light-pink);
+}
+footer .container-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
