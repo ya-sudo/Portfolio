@@ -82,7 +82,8 @@ h2 .text-bold {
 .box-img {
   overflow: hidden;
 }
-.nav-container {
+.nav-container,
+footer .container ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -104,7 +105,7 @@ h2 .text-bold {
   margin: 0 15px;
 }
 .nav-container a:hover,
-.nav-container a:active {
+.nav-container ul li a:active {
   color: var(--color-primary);
   font-weight: bold;
 }
@@ -132,7 +133,7 @@ ul li {
 }
 ul {
   padding: 0;
-  margin-top: 38px;
+  margin-top: 18px;
 }
 .list-item li {
   padding: 10px 0;
@@ -149,4 +150,17 @@ footer .container-box {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-container img,
+  .container-box img {
+    width: 50px;
+  }
+  h1 {
+    font-size: 52px;
+  }
+  h4 {
+    font-size: 18px;
+  }
 }
